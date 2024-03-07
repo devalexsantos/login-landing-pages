@@ -3,7 +3,7 @@ import FormSendPulse from './components/FormSendPulse'
 
 export default function Hero() {
   return (
-    <section className="bg-hero-pattern bg-cover py-8">
+    <section id="solicitar" className="bg-hero-pattern bg-cover py-8">
       <div className="container m-auto p-8">
         <div className="flex flex-wrap justify-center gap-8 items-center md:items-end">
           <div className="flex flex-col gap-3 justify-center items-center w-full max-w-[600px]">
@@ -39,12 +39,14 @@ export default function Hero() {
         </div>
       </div>
       <div className="w-full flex justify-center">
-        <Image
-          src={'/assets/icons/arrow-down-circle.svg'}
-          width={50}
-          height={50}
-          alt="arrow down circle"
-        />
+        <a href="#beneficios">
+          <Image
+            src={'/assets/icons/arrow-down-circle.svg'}
+            width={50}
+            height={50}
+            alt="arrow down circle"
+          />
+        </a>
       </div>
     </section>
   )

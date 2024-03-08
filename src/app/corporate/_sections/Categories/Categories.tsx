@@ -5,7 +5,7 @@ import CategorieItem from './components/CategorieItem'
 export default function Categories() {
   return (
     <section className="container m-auto flex flex-col items-center gap-2 pb-20">
-      <div className="flex flex-col items-center gap-8 p-8">
+      <div className="flex flex-col items-center gap-8 py-8">
         <div className="max-w-2xl">
           <h2 className="text-[#ECECEC] text-center text-2xl my-6">
             De <strong>Computadores</strong> e <strong>Notebooks</strong> a{' '}

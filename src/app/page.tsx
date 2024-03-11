@@ -1,7 +1,11 @@
+'use client'
+
+import { useRouter } from 'next/navigation'
+
 export default function Home() {
-  return (
-    <div>
-      <h1>Landing Pages - Login</h1>
-    </div>
-  )
+  const router = useRouter()
+
+  router.push('/corporate')
+
+  return <div />
 }

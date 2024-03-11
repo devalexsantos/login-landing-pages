@@ -42,6 +42,7 @@ const FormSendPulse: React.FC = () => {
                   <strong className="text-red-500">*</strong>
                 </label>
                 <input
+                  id="name-sendpulse"
                   type="text"
                   sp-type="name"
                   name="sform[Tm9tZQ==]"

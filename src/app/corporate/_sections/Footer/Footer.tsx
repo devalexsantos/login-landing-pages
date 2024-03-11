@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import SmallButtonCallToAction from '../../_components/SmallButtonCallToAction'
 
 export default function Footer() {
   return (
@@ -36,9 +37,7 @@ export default function Footer() {
             <p className="max-w-[260px]">
               Alameda das Cajazeiras, 560 – Caminho das Árvores. Salvador / BA
             </p>
-            <button className="mb-4 px-4 py-2 bg-[#FFB930] hover:bg-[#ffb01c] transition-all text-[#305776] rounded-xl text-sm font-extrabold">
-              SOLICITAR COTAÇÃO
-            </button>
+            <SmallButtonCallToAction primary />
           </div>
         </div>
         <span className="text-sm text-[#ececec] pt-8">

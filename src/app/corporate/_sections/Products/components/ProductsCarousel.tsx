@@ -1,3 +1,4 @@
+import SmallButtonCallToAction from '@/app/corporate/_components/SmallButtonCallToAction'
 import { products } from '@/app/corporate/_mocks/products'
 import {
   Carousel,
@@ -33,9 +34,7 @@ export default function ProductsCarousel() {
               <h3 className="text-center font-bold text-[#0B4E83] py-3 text-lg">
                 {product.title}
               </h3>
-              <button className="px-4 py-2 bg-[#0B4E83] text-white rounded-xl text-sm font-bold">
-                SOLICITAR COTAÇÃO
-              </button>
+              <SmallButtonCallToAction />
             </div>
           </CarouselItem>
         ))}

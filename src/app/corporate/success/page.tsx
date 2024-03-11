@@ -5,7 +5,6 @@ import {
   PhoneOutgoing,
 } from 'lucide-react'
 import Image from 'next/image'
-import Link from 'next/link'
 
 export default function Page() {
   return (
@@ -71,12 +70,12 @@ export default function Page() {
             <LinkLucid size={25} color="#0B4E83" />
           </a>
         </div>
-        <Link
+        <a
           href="/corporate"
           className="flex items-center gap-3 text-white mt-8"
         >
           <ArrowLeftCircle size={20} /> Voltar ao site
-        </Link>
+        </a>
       </div>
     </section>
   )

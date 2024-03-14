@@ -21,6 +21,10 @@ export default function Hero() {
                 para <strong>pequenas</strong> e{' '}
                 <strong>médias empresas</strong>
               </span>
+              <p className="text-white text-xl text-center mt-2 max-w-[500px] font-light">
+                Obtenha maior produtividade e eficiência com os produtos da
+                Login Informática.
+              </p>
             </div>
             <iframe
               className="mt-4"

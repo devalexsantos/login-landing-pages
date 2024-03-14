@@ -17,7 +17,7 @@ export default function SmallButtonCallToAction({
   return (
     <button
       onClick={handleClick}
-      className={`px-4 py-2 ${primary ? 'bg-[#FFB930] hover:bg-[#ffb01c] transition-all text-[#305776]' : 'bg-[#0B4E83] text-white'} rounded-xl text-sm font-bold`}
+      className={`px-4 py-2 ${primary ? 'bg-[#119823] hover:bg-[#119823] transition-all text-[#ffffff]' : 'bg-[#0B4E83] text-white'} rounded-xl text-sm font-bold`}
     >
       SOLICITAR COTAÇÃO
     </button>

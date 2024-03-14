@@ -95,7 +95,7 @@ const FormSendPulse: React.FC = () => {
                 sp-id="sp-6b30e826-1614-4224-9645-80ffb45917ca"
               >
                 <button
-                  className="p-2 bg-white w-full my-1 hover:bg-[#FFB930] transition-all"
+                  className="p-2 bg-[#119823] w-full my-1 text-white"
                   id="sp-6b30e826-1614-4224-9645-80ffb45917ca"
                 >
                   SOLICITAR COTAÇÃO

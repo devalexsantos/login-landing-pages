@@ -28,7 +28,7 @@ export default function Page() {
         </p>
         <div className="flex flex-col gap-3">
           <a
-            href="https://api.whatsapp.com/send?phone=557140204075"
+            href="https://wa.me/5571982018284?text=Ol%C3%A1%2C+vi+a+p%C3%A1gina+de+voc%C3%AAs+sobre+a+linha+corporate+e+queria+mais+informa%C3%A7%C3%B5es."
             target="_blank"
             className="flex items-center justify-between gap-4 bg-white rounded-xl shadow-xl w-full p-3 md:w-[300px] "
             rel="noreferrer"
@@ -41,7 +41,7 @@ export default function Page() {
             />
             <div className="flex flex-col items-center text-[#0B4E83]">
               <span className="text-xs">WhatsApp:</span>
-              <span className="text-xl font-bold">(71)4020-4075</span>
+              <span className="text-xl font-bold">(71)98201-8284</span>
             </div>
             <LinkLucid size={25} color="#0B4E83" />
           </a>

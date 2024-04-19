@@ -68,7 +68,7 @@ const FormSendPulse: React.FC = () => {
                   placeholder="1234567890"
                   sp-tips="%7B%22wrong%22%3A%22Telefone%20errado%22%7D"
                   autoComplete="on"
-                  className="py-2 px-3 text-zinc-700 font-bold"
+                  className="py-2 px-3 text-zinc-700 font-bold w-full"
                   required
                 />
               </div>

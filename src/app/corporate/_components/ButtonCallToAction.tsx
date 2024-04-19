@@ -11,7 +11,7 @@ export default function ButtonCallToAction() {
   return (
     <button
       onClick={handleClick}
-      className="bg-[#119823] hover:bg-[#119823] transition-all text-[#ffffff] px-6 py-3 rounded-xl font-extrabold max-w-3xl text-center text-xl mx-8 w-full"
+      className="bg-[#119823] hover:bg-[#119823] transition-all text-[#ffffff] px-6 py-3 rounded-xl font-extrabold max-w-3xl text-center text-xl w-full"
     >
       SOLICITAR UMA COTAÇÃO
     </button>

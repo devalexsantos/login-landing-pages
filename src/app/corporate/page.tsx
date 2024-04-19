@@ -1,3 +1,4 @@
+import About from './_sections/About/About'
 import Benefits from './_sections/Benefits/Benefits'
 import Categories from './_sections/Categories/Categories'
 import Footer from './_sections/Footer/Footer'
@@ -9,6 +10,7 @@ export default function Page() {
     <main>
       <Hero />
       <Benefits />
+      <About />
       <Categories />
       <Products />
       <Footer />

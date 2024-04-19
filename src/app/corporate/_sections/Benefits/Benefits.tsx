@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import ButtonCallToAction from '../../_components/ButtonCallToAction'
+import { CreditCard, Truck } from 'lucide-react'
 
 export default function Benefits() {
   const benefits = [
@@ -55,6 +56,38 @@ export default function Benefits() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex flex-col w-full items-center">
+          <div className="w-full max-w-[400px] flex justify-center bg-[#0B4E83] text-[#FFCA41] rounded-full px-8 py-2 z-10">
+            <span className="uppercase italic font-bold text-xl">
+              Condições Especiais
+            </span>
+          </div>
+          <div className="flex flex-col gap-3 items-center bg-[#FFCA41] text-[#0B4E83] rounded-xl px-6 pt-10 pb-6 mt-[-25px] w-full max-w-[846px]">
+            <div className="flex flex-col items-center md:flex-row gap-4">
+              <span className="flex items-center gap-2 font-bold italic text-xl">
+                <Truck size={32} />
+                FRETE GRÁTIS*
+              </span>
+              <span className="flex items-center gap-2 font-bold italic text-xl">
+                <CreditCard size={32} />
+                ATÉ 12X SEM JUROS
+              </span>
+              <span className="flex items-center gap-2 font-bold italic text-xl">
+                <Image
+                  src="/assets/icons/pix.svg"
+                  width={32}
+                  height={32}
+                  alt="Pix Logo"
+                />
+                8% DE DESCONTO NO PIX
+              </span>
+            </div>
+            <p className="text-center text-sm">
+              *Pedido mínimo de 5.000,00 (região Nordeste/Sudeste), com exceção
+              da linha de ar condicionado. Demais regiões consulte condições.
+            </p>
+          </div>
         </div>
         <ButtonCallToAction />
       </div>

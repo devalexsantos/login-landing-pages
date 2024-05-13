@@ -1,10 +1,13 @@
 /* eslint-disable */
 'use client'
 
-import React, { useEffect } from 'react'
+import React, { ChangeEvent, useEffect, useState } from 'react'
 import './FormSendPulse.css'
+import { cnpjMask } from '@/utils/cnpjMask';
 
 const FormSendPulse: React.FC = () => {
+  const [cnpj, setCnpj] = useState('');
+
   useEffect(() => {
     const script = document.createElement('script')
     script.src =
@@ -105,7 +108,10 @@ const FormSendPulse: React.FC = () => {
                       className="py-2 px-3 text-zinc-700 font-bold" 
                       placeholder="__.___.___/____-__" 
                       sp-tips="%7B%22required%22%3A%22Campo%20obrigat%C3%B3rio%22%7D" 
-                      required />
+                      required 
+                      value={cnpjMask(cnpj)}
+                      onChange={(e) => setCnpj(e.target.value)}
+                      />
               </div>
               <div
                 sp-id="sp-6b30e826-1614-4224-9645-80ffb45917ca"

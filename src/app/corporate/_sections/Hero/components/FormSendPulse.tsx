@@ -8,7 +8,7 @@ const FormSendPulse: React.FC = () => {
   useEffect(() => {
     const script = document.createElement('script')
     script.src =
-      '//web.webformscr.com/apps/fc3/build/default-handler.js?1708945005535'
+      '//web.webformscr.com/apps/fc3/build/default-handler.js?1712684273000'
     script.async = true
     document.body.appendChild(script)
 
@@ -73,7 +73,7 @@ const FormSendPulse: React.FC = () => {
                 />
               </div>
               <div
-              className="flex flex-col"
+                className="flex flex-col"
                 sp-id="sp-adb20323-4bb5-4c67-aa9b-27728387a115"
               >
                 <label>
@@ -90,6 +90,22 @@ const FormSendPulse: React.FC = () => {
                   className="py-2 px-3 text-zinc-700 font-bold"
                   required
                 />
+              </div>
+              <div 
+                  className="flex flex-col" 
+                  sp-id="sp-f0fd7e02-e7cf-4a4a-90f3-eb079f98973f">
+                    <label>
+                      <span className="text-white text-xs font-bold">CNPJ</span>
+                      <strong className="text-red-500">*</strong>
+                    </label>
+                      <input
+                      type="text" 
+                      sp-type="input" 
+                      name="sform[Y25wag==]" 
+                      className="py-2 px-3 text-zinc-700 font-bold" 
+                      placeholder="__.___.___/____-__" 
+                      sp-tips="%7B%22required%22%3A%22Campo%20obrigat%C3%B3rio%22%7D" 
+                      required />
               </div>
               <div
                 sp-id="sp-6b30e826-1614-4224-9645-80ffb45917ca"

@@ -1,17 +1,15 @@
 /* eslint-disable */
 'use client'
 
-import React, { ChangeEvent, useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import './FormSendPulse.css'
-import { cnpjMask } from '@/utils/cnpjMask';
 
 const FormSendPulse: React.FC = () => {
-  const [cnpj, setCnpj] = useState('');
 
   useEffect(() => {
     const script = document.createElement('script')
     script.src =
-      '//web.webformscr.com/apps/fc3/build/default-handler.js?1712684273000'
+      '//web.webformscr.com/apps/fc3/build/default-handler.js?1714030486793'
     script.async = true
     document.body.appendChild(script)
 
@@ -93,25 +91,6 @@ const FormSendPulse: React.FC = () => {
                   className="py-2 px-3 text-zinc-700 font-bold"
                   required
                 />
-              </div>
-              <div 
-                  className="flex flex-col" 
-                  sp-id="sp-f0fd7e02-e7cf-4a4a-90f3-eb079f98973f">
-                    <label>
-                      <span className="text-white text-xs font-bold">CNPJ</span>
-                      <strong className="text-red-500">*</strong>
-                    </label>
-                      <input
-                      type="text" 
-                      sp-type="input" 
-                      name="sform[Y25wag==]" 
-                      className="py-2 px-3 text-zinc-700 font-bold" 
-                      placeholder="__.___.___/____-__" 
-                      sp-tips="%7B%22required%22%3A%22Campo%20obrigat%C3%B3rio%22%7D" 
-                      required 
-                      value={cnpjMask(cnpj)}
-                      onChange={(e) => setCnpj(e.target.value)}
-                      />
               </div>
               <div
                 sp-id="sp-6b30e826-1614-4224-9645-80ffb45917ca"

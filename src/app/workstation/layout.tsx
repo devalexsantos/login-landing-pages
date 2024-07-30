@@ -8,7 +8,9 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: 'Login Informática - Workstation',
-  description: 'Um mundo de performance para você.',
+  description: 'Workstation profissional de alta performance',
+  keywords:
+    'workstation, computador, desktop, profissional, alta performance, computador para trabalho',
 }
 
 export default function CorporateLayout({

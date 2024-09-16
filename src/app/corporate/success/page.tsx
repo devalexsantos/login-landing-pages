@@ -41,7 +41,7 @@ export default function Page() {
             />
             <div className="flex flex-col items-center text-[#0B4E83]">
               <span className="text-xs">WhatsApp:</span>
-              <span className="text-xl font-bold">(71)98201-8284</span>
+              <span className="text-xl font-bold">(71)4020-4075</span>
             </div>
             <LinkLucid size={25} color="#0B4E83" />
           </a>

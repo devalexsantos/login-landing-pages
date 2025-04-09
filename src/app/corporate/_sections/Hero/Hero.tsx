@@ -1,7 +1,6 @@
 import Image from 'next/image'
 
 export default function Hero() {
-
   const benefits = [
     {
       icon: '/assets/icons/atendimento-ao-cliente.png',
@@ -66,6 +65,7 @@ export default function Hero() {
                   ></iframe>
                   <a
                     href="https://api.whatsapp.com/send?phone=557140204075"
+                    rel="noopener noreferrer"
                     target="_blank"
                     className="flex items-center justify-center gap-3 bg-[#5D9B18] text-white px-6 py-4 text-center border border-white/30 font-bold text-xl w-full max-w-[360px] uppercase"
                   >
@@ -87,28 +87,17 @@ export default function Hero() {
                     />
                     <div className="flex flex-col items-start text-lg">
                       <span>{benefit.firstLine}</span>
-                      <span className="font-extrabold">{benefit.secondLine}</span>
+                      <span className="font-extrabold">
+                        {benefit.secondLine}
+                      </span>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
           </div>
-          <div>
-            {/* <FormSendPulse /> */}
-          </div>
         </div>
       </div>
-      {/* <div className="w-full flex justify-center"> */}
-      {/*   <a href="#beneficios"> */}
-      {/*     <Image */}
-      {/*       src={'/assets/icons/arrow-down-circle.svg'} */}
-      {/*       width={50} */}
-      {/*       height={50} */}
-      {/*       alt="arrow down circle" */}
-      {/*     /> */}
-      {/*   </a> */}
-      {/* </div> */}
     </section>
   )
 }

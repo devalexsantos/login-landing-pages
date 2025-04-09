@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background: #013C64;
-    scroll-behavior:smooth;
+  background: #013c64;
+  scroll-behavior: smooth;
 }

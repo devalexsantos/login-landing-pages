@@ -1,28 +1,27 @@
 /* eslint-disable */
-'use client'
+"use client";
 
-import React, { useEffect } from 'react'
-import './FormSendPulse.css'
+import React, { useEffect } from "react";
+import "./FormSendPulse.css";
 
 const FormSendPulse: React.FC = () => {
-
   useEffect(() => {
-    const script = document.createElement('script')
+    const script = document.createElement("script");
     script.src =
-      '//web.webformscr.com/apps/fc3/build/default-handler.js?1714030486793'
-    script.async = true
-    document.body.appendChild(script)
+      "//web.webformscr.com/apps/fc3/build/default-handler.js?1714030486793";
+    script.async = true;
+    document.body.appendChild(script);
 
     return () => {
-      document.body.removeChild(script)
-    }
-  }, [])
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
     <>
       <div className="w-full">
         <div
-        className="bg-[#0D2E4C] p-4 min-w-[350px] border border-opacity-25 border-zinc-50"
+          className="bg-[#0D2E4C] p-4 min-w-[350px] border border-opacity-25 border-zinc-50"
           id="sp-form-233122"
           sp-id="233122"
           sp-hash="06ea0d546f23ec51cc794916a2b242ef76043283fbd88671c9376e7068afaef2"
@@ -33,7 +32,10 @@ const FormSendPulse: React.FC = () => {
             <div className="sp-message">
               <div></div>
             </div>
-            <form noValidate className="flex flex-col gap-3 sp-element-container">
+            <form
+              noValidate
+              className="flex flex-col gap-3 sp-element-container"
+            >
               <div
                 className="flex flex-col"
                 sp-id="sp-81060800-d756-4158-a627-4e5092fdb340"
@@ -55,7 +57,7 @@ const FormSendPulse: React.FC = () => {
                 />
               </div>
               <div
-              className="flex flex-col"
+                className="flex flex-col"
                 sp-id="sp-a3dfaa9b-6599-4a64-982b-8bd8a83e19ea"
               >
                 <label>
@@ -92,9 +94,7 @@ const FormSendPulse: React.FC = () => {
                   required
                 />
               </div>
-              <div
-                sp-id="sp-6b30e826-1614-4224-9645-80ffb45917ca"
-              >
+              <div sp-id="sp-6b30e826-1614-4224-9645-80ffb45917ca">
                 <button
                   className="p-2 bg-[#119823] w-full my-1 text-white"
                   id="sp-6b30e826-1614-4224-9645-80ffb45917ca"
@@ -113,7 +113,7 @@ const FormSendPulse: React.FC = () => {
         sp-form-id="06ea0d546f23ec51cc794916a2b242ef76043283fbd88671c9376e7068afaef2"
       ></script>
     </>
-  )
-}
+  );
+};
 
-export default FormSendPulse
+export default FormSendPulse;

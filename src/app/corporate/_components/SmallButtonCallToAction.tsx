@@ -7,19 +7,14 @@ interface SmallButtonCallToActionProps {
 export default function SmallButtonCallToAction({
   primary,
 }: SmallButtonCallToActionProps) {
-  const handleClick = () => {
-    const inputElement = document.getElementById('name-sendpulse')
-    if (inputElement) {
-      inputElement.focus()
-    }
-  }
 
   return (
-    <button
-      onClick={handleClick}
-      className={`px-4 py-2 ${primary ? 'bg-[#119823] hover:bg-[#119823] transition-all text-[#ffffff]' : 'bg-[#0B4E83] text-white'} rounded-xl text-sm font-bold`}
+    <a
+      href="https://api.whatsapp.com/send?phone=557140204075"
+      target="_blank"
+      className={`px-4 py-2 ${primary ? 'bg-[#119823] hover:bg-[#119823] transition-all text-[#ffffff]' : 'bg-[#0B4E83] text-white'} rounded-xl text-sm font-bold text-center`}
     >
       SOLICITAR COTAÇÃO
-    </button>
+    </a>
   )
 }

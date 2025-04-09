@@ -1,5 +1,4 @@
 import { Cpu, Leaf, MonitorCheck, ShieldCheck } from 'lucide-react'
-import ProductsCarousel from './components/ProductsCarousel'
 
 export default function Products() {
   return (
@@ -48,10 +47,6 @@ export default function Products() {
             </span>
           </div>
         </div>
-        <h2 className="text-xl text-center max-w-[600px] font-bold mt-4">
-          Conheça alguns dos produtos do portfólio Login para empresas:
-        </h2>
-        <ProductsCarousel />
       </div>
     </section>
   )

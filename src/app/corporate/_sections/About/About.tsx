@@ -70,15 +70,10 @@ export default function About() {
         <div className="w-full flex flex-col gap-3 max-w-[500px]">
           <h2 className="font-bold text-4xl">Sobre a Login</h2>
           <p className="">
-            Bem-vindo à Login! Somos um grupo com mais de 30 anos de experiência
-            na fabricação de Computadores e Notebooks, são 11 lojas em alguns
-            dos maiores Shoppings do Nordeste, e-commerce próprio e presença nos
-            maiores Marketplaces do Brasil.{' '}
+            Bem-vindo à Login! Somos um grupo com mais de 30 anos de experiência na fabricação de Computadores, Notebooks e na comercialização de equipamentos de informática em geral. Temos 11 lojas físicas em alguns dos maiores Shoppings do Nordeste, e-commerce próprio e estamos presentes nos maiores Marketplaces do Brasil.
           </p>
           <p className="mb-4">
-            Temos uma grande variedade de equipamentos das melhores marcas do
-            mundo, além de uma linha completa de computadores e notebooks de
-            fabricação própria.
+            Contamos com uma grande variedade de equipamentos de informática e tecnologia das melhores marcas do mundo, prontos para atender todas as necessidades do seu negócio, além de uma linha completa de computadores e notebooks de fabricação própria, com garantia direta com a Login.
           </p>
 
           <ButtonCallToAction />

@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
         </div>
         <span className="text-sm text-[#ececec] pt-8">
-          © Login Informática - 2024 - Todos os direitos reservados
+          © Login Informática - 2025 - Todos os direitos reservados
         </span>
       </div>
     </footer>

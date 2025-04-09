@@ -28,7 +28,7 @@ export default function Page() {
         </p>
         <div className="flex flex-col gap-3">
           <a
-            href="https://wa.me/557140204075?text=Ol%C3%A1%2C+vi+a+p%C3%A1gina+de+voc%C3%AAs+sobre+a+linha+corporate+e+queria+mais+informa%C3%A7%C3%B5es."
+            href="https://wa.me/557140204075?text=Ol%C3%A1%2C+vi+a+p%C3%A1gina+de+voc%C3%AAs+sobre+a+linha+corporate+e+queria+mais+informa%C3%A7%C3%B5es"
             target="_blank"
             className="flex items-center justify-between gap-4 bg-white rounded-xl shadow-xl w-full p-3 md:w-[300px] "
             rel="noreferrer"

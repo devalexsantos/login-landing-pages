@@ -64,7 +64,7 @@ export default function Hero() {
                     allowFullScreen
                   ></iframe>
                   <a
-                    href="https://api.whatsapp.com/send?phone=557140204075"
+                    href="https://wa.me/557140204075?text=Ol%C3%A1%2C+vi+a+p%C3%A1gina+de+voc%C3%AAs+sobre+a+linha+corporate+e+queria+mais+informa%C3%A7%C3%B5es"
                     rel="noopener noreferrer"
                     target="_blank"
                     className="flex items-center justify-center gap-3 bg-[#5D9B18] text-white px-6 py-4 text-center border border-white/30 font-bold text-xl w-full max-w-[360px] uppercase"
